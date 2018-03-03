@@ -35,9 +35,16 @@ a:hover {
 }
 
 #my_header {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   padding: 30px;
-  background: url("https://picsum.photos/1600/600/?image=234");
+  background: url("https://picsum.photos/1600/600/?image=234") no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 .item{
