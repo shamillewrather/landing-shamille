@@ -1,0 +1,71 @@
+/*body {
+  margin: 0;
+  background-color: black;
+  font-size: 100px;
+  font-family: 'Barlow Condensed', sans-serif;
+}*/
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: orange;
+  font-weight: 300;
+  font-size: 32px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #EF6461;
+  font-weight: lighter;
+  font-size: 24px;
+}
+
+p {
+	color: rgb(134, 0, 60);
+}
+
+a {
+  color: #EF6461;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+#my_header {
+  text-align: center;
+  padding: 30px;
+  background: url("https://picsum.photos/1600/600/?image=234");
+}
+
+.item{
+  padding: 25px;
+  text-align: center;
+}
+
+.item img {
+  background-color: #EF6461;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+#my_footer {
+  background-color: #002A32;
+  color: #E8E9EB;
+}
+
+#my_footer ul li{
+  list-style: none;
+}
+
+#my_footer a {
+  color: lightgrey;
+  font-size: 15px;
+}
+
+#my_footer a:hover {
+  color: white;
+}
+
